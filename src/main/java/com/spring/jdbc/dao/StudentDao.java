@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 import com.spring.jdbc.entities.Student;
 
-@Component("studentDao")
+
 public interface StudentDao {
 	
 	public int insert(Student student);
